@@ -1,1 +1,4 @@
-scene.setBackgroundColor(3)
+controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
+    let mySprite: Sprite = null
+    mySprite.destroy()
+})
